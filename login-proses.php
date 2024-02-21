@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $response = [
                 'status'   => 'success',
                 'message'  => 'Login berhasil !.Klik OK untuk melanjutkan...',
-                'redirect' => 'buku.php'
+                'redirect' => '/buku'
             ];
         } else {
             $response = [
@@ -41,5 +41,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ];
 }
 
-header('Content-Type: application/json'); // Set header untuk menandakan respons dalam format JSON
+header('Content-Type: application/json'); 
 echo json_encode($response);

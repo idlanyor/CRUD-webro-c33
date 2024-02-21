@@ -5,7 +5,7 @@
 -- Host: 127.0.0.1
 -- Waktu pembuatan: 16 Nov 2023 pada 17.33
 -- Versi server: 10.4.28-MariaDB
--- Versi PHP: 8.2.4
+-- Versi PHP: 8.2.4 
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;

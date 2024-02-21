@@ -1,9 +1,9 @@
 <?php
 session_start();
-($_SESSION['id'] == null ? header("Location: index.php") : "")
+($_SESSION['id'] == null ? header("Location: /") : "")
 ?>
 <!doctype html>
-<html class="dark">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@ session_start();
     <title>Edit Buku</title>
 </head>
 
-<body class="bg-gray-50 dark:bg-gray-900">
+<body class="bg-green-400 dark:bg-gray-900">
     <?php
     include 'config/koneksi.php';
 
